@@ -1,0 +1,64 @@
+nav {
+  position: relative;
+  height: 80px;
+  background-color: rgb(75, 67, 128);
+}
+
+.navContain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HelloUser {
+  font-size: 22px;
+  font-weight: bold;
+  color: rgb(235, 225, 225);
+  margin: 20px 0px 0px 50px;
+}
+
+.submit {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(253, 124, 101);
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px;
+}
+
+body {
+  background-color: rgb(185, 185, 185);
+}
+
+.card {
+  margin: 30px 2px 2px 2px;
+  border-color: 2px solid rgb(75, 67, 128);
+  border-radius: 3px;
+}
+
+img {
+  height: 150px;
+}
+
+span {
+  font-size: 16px;
+  text-align: center;
+}
+
+.detailButton {
+  width: 229px;
+  height: 35px;
+  background-color: rgb(75, 67, 128);
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  border-radius: 1px;
+  text-align: center;
+  margin: 5px 0px 0px 11px;
+  color: white;
+}

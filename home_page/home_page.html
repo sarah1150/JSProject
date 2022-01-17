@@ -1,0 +1,43 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Bootstrap_CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="home_page.css" />
+    <title>HomePage</title>
+
+    <!--Navbar-->
+    <nav>
+      <div class="navContain">
+        <span class="HelloUser">
+          <script>
+            document.write(
+              "Hello" + " " + localStorage.getItem("UserName") + " " + ":)"
+            );
+          </script>
+        </span>
+        <input
+          type="submit"
+          value="LogOut"
+          class="submit"
+          id="LOGOUT"
+          onclick="logoutclick()"
+        />
+      </div>
+    </nav>
+  </head>
+
+  <!--STart Body Proudct-->
+  <body>
+    <div class="container row text-center justify-content-between"></div>
+    <!-- <script src="../auth.js"></script> -->
+    <script src="homeJS.js"></script>
+  </body>
+</html>

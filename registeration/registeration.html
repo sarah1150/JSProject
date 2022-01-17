@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="registeration.css" />
+    <title>registeration</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="Form">
+        <h2>Registeration Form</h2>
+        <div class="enterText">
+          <input
+            type="text"
+            value="User Name"
+            class="inputText"
+            name="UserName"
+            id="saveUser"
+          />
+          <input
+            type="password"
+            value="Password"
+            class="inputText"
+            name="pass"
+            id="password"
+          />
+          <input
+            type="password"
+            value="Password"
+            class="inputText"
+            name="repass"
+            id="repassword"
+          />
+        </div>
+        <div class="bton">
+          <input
+            type="submit"
+            value="Create Account"
+            class="submit"
+            id="Save"
+            onclick="saveData()"
+          />
+
+          <input
+            type="submit"
+            value="Reset"
+            class="reset"
+            id="deleteData"
+            onclick="DeleteData()"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="../auth.js"></script>
+  </body>
+</html>

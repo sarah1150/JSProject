@@ -1,0 +1,76 @@
+nav {
+  position: relative;
+  height: 80px;
+  background-color: rgb(75, 67, 128);
+}
+
+.navContain {
+  display: flex;
+  justify-content: space-between;
+}
+
+.HelloUser {
+  font-size: 21px;
+  font-weight: bold;
+  color: rgb(235, 225, 225);
+  margin: 20px 0px 0px 140px;
+}
+
+.submit {
+  width: 80px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  color: white;
+  background-color: rgb(253, 124, 101);
+  opacity: 0.9;
+  border-radius: 4px;
+  text-align: center;
+  margin: 20px 40px 0px 0px;
+}
+
+body {
+  background-color: rgb(185, 185, 185);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+img {
+  height: 250px;
+  width: 290px;
+  margin: 40px 10px 0px 0px;
+  border-radius: 4px;
+}
+
+.spanDiv {
+  width: 450px;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(42, 41, 49);
+  margin: 50px 0px 0px 90px;
+}
+
+span {
+  display: block;
+  margin-top: 10px;
+}
+
+.buy {
+  position: relative;
+  top: 20px;
+  /* left: 40px; */
+  width: 140px;
+  height: 35px;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(75, 67, 128);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  display: block;
+  color: white;
+}
